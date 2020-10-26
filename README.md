@@ -1,6 +1,6 @@
 # CakePHP Application Loginfo
 
-## Installation
+## Installation cakePHP
 
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
@@ -31,7 +31,9 @@ bin/cake server -p 8765
 
 ## Configuration
 
-Import for your datebase the file apllication.sql.
+Import for your datebase the file loginfo.sql.
+
+Right away you need to do the migrate for that table "Product" be created in the database.
 
 Read and edit `config/app.php` and setup the `'Datasources'` and any other
 configuration relevant for your application.
